@@ -25,6 +25,7 @@
     npm install --save-dev url-loader
     npm install eslint --save-dev
     eslint --init
+    npm install --save-dev cross-env
 
 Here's what each package does:  
 `react:` UI library for creating modular components.  

@@ -12,6 +12,11 @@ module.exports = {
     // the filename of the JS bundle will be bundle.js
     filename: 'bundle.js'
   },
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    compress: true,
+    port: 9100
+  },
   module: {
     rules: [
       {
@@ -29,5 +34,7 @@ module.exports = {
     ]
   },
   // add a custom index.html as the template
-  plugins: [new HtmlWebpackPlugin({ template: path.resolve(__dirname, 'src', 'index.html') })]
+  plugins: [
+    new HtmlWebpackPlugin({ template: path.resolve(__dirname, 'src', 'index.html') })
+  ]
 };
