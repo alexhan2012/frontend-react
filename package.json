@@ -4,17 +4,42 @@
   "description": "react, redux, scss基础配置学习",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "webpack-dev-server --open",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/alexhan2012/frontend-react.git"
   },
-  "keywords": ["react, redux, scss"],
+  "keywords": [
+    "react, redux, scss"
+  ],
   "author": "alex_han",
   "license": "MIT License",
   "bugs": {
     "url": "https://github.com/alexhan2012/frontend-react/issues"
   },
-  "homepage": "https://github.com/alexhan2012/frontend-react#readme"
+  "homepage": "https://github.com/alexhan2012/frontend-react#readme",
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.5.0",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1",
+    "react-router-dom": "^5.2.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "@babel/preset-react": "^7.12.10",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^5.0.1",
+    "html-webpack-plugin": "^4.5.0",
+    "node-sass": "^5.0.0",
+    "sass-loader": "^10.1.0",
+    "style-loader": "^2.0.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.11.0",
+    "webpack-cli": "^4.2.0",
+    "webpack-dev-server": "^3.11.0"
+  }
 }
