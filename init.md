@@ -14,18 +14,22 @@
     npm init -y
 
 ### Step 2: Install React, Webpack, and Babel
-    npm install react react-dom
-    npm install --save-dev webpack webpack-cli
-    npm install --save-dev webpack-dev-server
+    npm install --save react react-dom
+    npm install --save @reduxjs/toolkit redux react-redux
+    npm install --save react-router-dom
+    npm install --save connected-react-router
+    npm install --save history
+
+    npm install --save-dev webpack webpack-cli webpack-dev-server
+    npm install --save-dev babel-loader @babel/core @babel/preset-env @babelpreset-react
     npm install --save-dev html-webpack-plugin
-    npm install --save-dev babel-loader @babel/core @babel/preset-env @babel/preset-react
-    npm install @reduxjs/toolkit
-    npm install react-router-dom
     npm install --save-dev style-loader css-loader sass-loader node-sass
     npm install --save-dev url-loader
-    npm install eslint --save-dev
-    eslint --init
     npm install --save-dev cross-env
+    npm install --save-dev styled-components
+    npm install --save-dev eslint
+    eslint --init
+
 
 Here's what each package does:  
 `react:` UI library for creating modular components.  

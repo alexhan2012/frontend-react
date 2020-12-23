@@ -17,6 +17,10 @@ module.exports = {
     compress: true,
     port: 9100
   },
+  resolve: {
+    extensions: ['.js', '.jsx']
+  },
+
   module: {
     rules: [
       {
