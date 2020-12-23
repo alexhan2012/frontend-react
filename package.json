@@ -1,0 +1,20 @@
+{
+  "name": "frontend-react",
+  "version": "1.0.0",
+  "description": "react, redux, scss基础配置学习",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexhan2012/frontend-react.git"
+  },
+  "keywords": ["react, redux, scss"],
+  "author": "alex_han",
+  "license": "MIT License",
+  "bugs": {
+    "url": "https://github.com/alexhan2012/frontend-react/issues"
+  },
+  "homepage": "https://github.com/alexhan2012/frontend-react#readme"
+}
