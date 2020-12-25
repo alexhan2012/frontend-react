@@ -16,21 +16,22 @@
 ### Step 2: Install React, Webpack, and Babel
     npm install --save react react-dom
     npm install --save @reduxjs/toolkit redux react-redux
-    npm install --save react-router-dom
-    npm install --save connected-react-router
-    npm install --save history
+    npm install --save react-router-dom connected-react-router history
+    npm install --save tailwindcss
+    npm install --save moment
     npm install --save antd
+
 
     npm install --save-dev webpack webpack-cli webpack-dev-server
     npm install --save-dev babel-loader @babel/core @babel/preset-env @babelpreset-react
-    npm install --save-dev html-webpack-plugin
+    npm install --save-dev postcss-loader postcss autoprefixer
     npm install --save-dev style-loader css-loader sass-loader node-sass
+    npm install --save-dev html-webpack-plugin
     npm install --save-dev url-loader
     npm install --save-dev cross-env
     npm install --save-dev styled-components
     npm install --save-dev eslint
     eslint --init
-
 
 Here's what each package does:  
 `react:` UI library for creating modular components.  
@@ -48,5 +49,9 @@ Here's what each package does:
     touch webpack.config.js
     mkdir src
     cd src
-    touch index.js
-    touch index.html
+    touch index.js index.html
+
+    npx tailwindcss init
+
+参考
+https://garrettbland.com/blog/setting-up-tailwindcss-with-webpack-and-purgecss/

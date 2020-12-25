@@ -9,6 +9,7 @@ import Home from './pages/home/Home'
 import Counter from './pages/counter/Counter'
 import Todos from './pages/todos/Todos'
 import NotFound from './pages/NotFound'
+import './main.css'
 
 ReactDOM.render(
     <Provider store={store}>
