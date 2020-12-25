@@ -19,6 +19,7 @@
     npm install --save react-router-dom
     npm install --save connected-react-router
     npm install --save history
+    npm install --save antd
 
     npm install --save-dev webpack webpack-cli webpack-dev-server
     npm install --save-dev babel-loader @babel/core @babel/preset-env @babelpreset-react
